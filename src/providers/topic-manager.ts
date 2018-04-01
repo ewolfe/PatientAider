@@ -14,6 +14,7 @@ export class TopicManager {
   constructor(public http: Http) {
     console.log('Hello TopicManager Provider');
     this.baseUrl = 'https://virgil.ftltech.org/api'; 
+    //this.baseUrl = 'http://localhost:12908/api';
     this.getTopics();
     this.getFootnotes();
   }
